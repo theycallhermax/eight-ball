@@ -1,0 +1,7 @@
+data/ml.mdwalters.EightBall.desktop.in
+data/ml.mdwalters.EightBall.appdata.xml.in
+data/ml.mdwalters.EightBall.gschema.xml
+src/window.ui
+src/main.py
+src/window.py
+
