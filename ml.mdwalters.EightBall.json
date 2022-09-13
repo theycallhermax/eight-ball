@@ -1,9 +1,9 @@
 {
-    "app-id" : "ml.mdwalters.EightBall",
+    "app-id" : "ml.mdwalters.Predict",
     "runtime" : "org.gnome.Platform",
     "runtime-version" : "42",
     "sdk" : "org.gnome.Sdk",
-    "command" : "eight-ball",
+    "command" : "predict",
     "finish-args" : [
         "--share=network",
         "--share=ipc",
@@ -24,13 +24,13 @@
     ],
     "modules" : [
         {
-            "name" : "eight-ball",
+            "name" : "predict",
             "builddir" : true,
             "buildsystem" : "meson",
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://github.com/mdwalters/eight-ball.git"
+                    "url" : "file:///home/ubuntu/Projects/eight-ball"
                 }
             ]
         }
