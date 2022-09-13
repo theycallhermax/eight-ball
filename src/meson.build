@@ -28,7 +28,6 @@ configure_file(
 eight_ball_sources = [
   '__init__.py',
   'main.py',
-  'window.py',
 ]
 
 install_data(eight_ball_sources, install_dir: moduledir)
