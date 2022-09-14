@@ -30,12 +30,10 @@
             "sources" : [
                 {
                     "type" : "git",
-                    "url" : "https://github.com/mdwalters/eight-ball.git"
+                    "url" : "https://github.com/mdwalters/eight-ball"
                 }
             ]
         }
-    ],
-    "build-options" : {
-        "env" : {        }
-    }
+    ]
 }
+
