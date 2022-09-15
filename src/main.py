@@ -26,7 +26,7 @@ class EightBall(Gtk.Window):
         popover = Gtk.Popover()
         newPrediction = Gtk.Button()
         menu = Gtk.MenuButton(popover=popover)
-        vbox = Gtk.Box(spacing=10, orientation=Gtk.Orientation.VERTICAL)
+        vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
         menuButton = Gtk.ModelButton(label="About Eight Ball")
 
         def roll(self):
