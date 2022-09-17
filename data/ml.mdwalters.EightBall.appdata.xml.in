@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-	<id>ml.mdwalters.EightBall</id>
-	<metadata_license>CC0-1.0</metadata_license>
-	<project_license>MIT</project_license>
-  	<name>Eight Ball</name>
-  	<summary>Make decisions easily</summary>
-	<description>
-	  <p>Eight Ball makes it more easier to make decisions, on whatever it is, from deciding if doing something is a good idea, or it's a bad idea!</p>
-	</description>
-	<content_rating type="oars-1.1" />
-	<screenshots>https://user-images.githubusercontent.com/67456566/190506034-4d887f69-ba17-4137-83fb-eddb9530ea8f.png</screenshots>
-	<release>1.3.2</release>
-	<url>https://github.com/mdwalters/eight-ball</url>
+    <id>ml.mdwalters.EightBall</id>
+    <launchable type="desktop-id">ml.mdwalters.EightBall.desktop</launchable>
+    <name>Eight Ball</name>
+    <developer_name>M.D. Walters</developer_name>
+    <project_license>MIT</project_license>
+    <metadata_license>CC0-1.0</metadata_license>
+    <summary>Make decisions easily</summary>
+    <description>Eight Ball makes it more easier to make decisions, on whatever it is, from deciding if doing something is a good idea, or it's a bad idea!</description>
+    <url type="homepage">https://github.com/mdwalters/eight-ball</url>
+    <url type="bugtracker">https://github.com/mdwalters/eight-ball/issues</url>
+    <screenshots>
+        <screenshot type="default">
+            <image type="thumbnail" width="404" height="404">https://user-images.githubusercontent.com/67456566/190506034-4d887f69-ba17-4137-83fb-eddb9530ea8f.png</image>
+        </screenshot>
+    </screenshots>
+    <releases>
+        <release version="1.3.3" date="09-16-2022">
+            <description>Change app thingy</description>
+        </release>
+    </releases>
 </component>
