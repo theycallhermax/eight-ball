@@ -7,7 +7,11 @@
     <project_license>MIT</project_license>
     <metadata_license>CC0-1.0</metadata_license>
     <summary>Make decisions easily</summary>
-    <description>Eight Ball makes it more easier to make decisions, on whatever it is, from deciding if doing something is a good idea, or it's a bad idea!</description>
+    <description>
+        <p>
+        Eight Ball makes it more easier to make decisions, on whatever it is, from deciding if doing something is a good idea, or it's a bad idea!
+        </p>
+    </description>
     <url type="homepage">https://github.com/mdwalters/eight-ball</url>
     <url type="bugtracker">https://github.com/mdwalters/eight-ball/issues</url>
     <screenshots>
