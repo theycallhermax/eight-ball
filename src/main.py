@@ -7,17 +7,17 @@ class AboutDialog(Gtk.AboutDialog):
     def __init__(self, parent):
         Gtk.AboutDialog.__init__(self)
         self.props.program_name = "Eight Ball"
-        self.props.version = "1.3.2"
+        self.props.version = "1.3.3"
         self.props.authors = ["M.D. Walters"]
         self.props.copyright = "2022 M.D. Walters"
         self.props.logo_icon_name = "ml.mdwalters.EightBall"
         self.props.modal = True
 
-class EightBall(Gtk.Window):
+class EightBall(Gtk.ApplicationWindow):
     def __init__(self):
         super().__init__()
 
-        self.set_size_request(640, 360)
+        self.set_default_size(800, 600)
         self.set_border_width(10)
 
         eightBall = ["It is certain.", "It is decidedly so.", "Without a doubt.", "Yes, definitely.", "You may rely on it.", "As I see it, yes.", "Most likely.", "Outlook good.", "Yes.", "Signs point to yes.", "Reply hazy, try again.", "Ask again later.", "Better not tell you now.", "Cannot predict now.", "Concentrate and ask again.", "Don't count on it.", "My reply is no.", "My sources say no.", "Outlook not so good.", "Very doubtful.", "No.", "Maybe."]
