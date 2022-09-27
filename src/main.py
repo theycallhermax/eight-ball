@@ -7,35 +7,14 @@ class AboutDialog(Gtk.AboutDialog):
     def __init__(self, parent):
         Gtk.AboutDialog.__init__(self)
         self.props.program_name = "Eight Ball"
-        self.props.version = "1.4.1"
+        self.props.version = "1.4.2"
         self.props.authors = ["M.D. Walters"]
-        self.props.copyright = "This project is licenced under the MIT Licence"
+        self.props.copyright = "2022 M.D. Walters"
         self.props.logo_icon_name = "ml.mdwalters.EightBall"
         self.props.comments = "Make decisions easily"
         self.props.license_type = 7
-        self.props.license = """MIT License
-
-Copyright (c) 2022 M.D. Walters
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-"""
-        self.props.wrap_license = True
+        self.props.website = "https://github.com/mdwalters/eight-ball"
+        self.props.website_label = "Website"
         self.props.modal = True
 
 class EightBall(Gtk.ApplicationWindow):
