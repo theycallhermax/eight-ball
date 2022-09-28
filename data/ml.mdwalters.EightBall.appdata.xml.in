@@ -17,7 +17,7 @@
     <url type="bugtracker">https://github.com/mdwalters/eight-ball/issues</url>
     <screenshots>
         <screenshot type="default">
-            <image type="thumbnail" width="720" height="583">https://files.mdwalters.ml/eight-ball-screenshot.png</image>
+            <image type="source">https://files.mdwalters.ml/eight-ball-screenshot.png</image>
         </screenshot>
     </screenshots>
     <releases>
