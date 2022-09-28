@@ -7,7 +7,7 @@ class AboutDialog(Gtk.AboutDialog):
     def __init__(self, parent):
         Gtk.AboutDialog.__init__(self)
         self.props.program_name = "Eight Ball"
-        self.props.version = "1.4.2"
+        self.props.version = "1.4.3"
         self.props.authors = ["M.D. Walters"]
         self.props.copyright = "© 2022 M.D. Walters"
         self.props.logo_icon_name = "ml.mdwalters.EightBall"
