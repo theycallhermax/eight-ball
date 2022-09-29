@@ -22,13 +22,20 @@
         </screenshot>
     </screenshots>
     <releases>
+      <release version="1.5.2" date="2022-09-29">
+        <description>
+          <ul>
+            <li>Also forgot to change the version in the <code>meson.build</code> file</li>
+          </ul>
+        </description>
+      </release>
       <release version="1.5.1" date="2022-09-29">
         <description>
           <ul>
             <li>Add release to Appdata, forgot to do this before releasing <code>1.5.0</code></li>
           </ul>
         </description>
-    </release>
+      </release>
       <release version="1.5.0" date="2022-09-28">
         <description>
           <ul>
@@ -38,7 +45,7 @@
             <li>Many other changes!</li>
           </ul>
         </description>
-    </release>
+      </release>
       <release version="1.4.2" date="2022-09-28">
         <description>
           <ul>
