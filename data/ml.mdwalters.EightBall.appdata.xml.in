@@ -22,8 +22,21 @@
         </screenshot>
     </screenshots>
     <releases>
-      <release version="1.5.1" date="2022-09-29"/>
-      <release version="1.5.0" date="2022-09-28"/>
+      <release version="1.5.1" date="2022-09-29">
+        <description>
+          <ul>
+            <li>Add release to Appdata, forgot to do this before releasing <code>1.5.0</code></li>
+          </ul>
+        </description>
+      <release version="1.5.0" date="2022-09-28">
+        <description>
+          <ul>
+            <li>Remove maybe-related predictions</li>
+            <li>Bump org.gnome.Platform and org.gnome.Sdk version to 43</li>
+            <li>Add Utility tag</li>
+            <li>Many other changes!</li>
+          </ul>
+        </description>
       <release version="1.4.2" date="2022-09-28">
         <description>
           <ul>
