@@ -30,8 +30,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/mdwalters/eight-ball/archive/refs/tags/1.4.2.zip",
-                    "sha256": "d0308e7298a763ef0dc40a04c7930de7b998c830c25d233a5a10adeb73acd1fd",
+                    "url": "https://github.com/mdwalters/eight-ball/archive/refs/tags/1.5.1.zip",
+                    "sha256": "554c4cb86acf78f9dea11133c3cf65ce9b989527f4bf507c58c68a06469447f6",
                     "x-checker-data": {
                         "name": "eight-ball"
                     }
