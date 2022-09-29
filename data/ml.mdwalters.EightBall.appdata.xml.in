@@ -28,6 +28,7 @@
             <li>Add release to Appdata, forgot to do this before releasing <code>1.5.0</code></li>
           </ul>
         </description>
+    </release>
       <release version="1.5.0" date="2022-09-28">
         <description>
           <ul>
@@ -37,6 +38,7 @@
             <li>Many other changes!</li>
           </ul>
         </description>
+    </release>
       <release version="1.4.2" date="2022-09-28">
         <description>
           <ul>
