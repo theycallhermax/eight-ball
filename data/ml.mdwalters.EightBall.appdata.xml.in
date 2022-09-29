@@ -40,8 +40,8 @@
         <description>
           <ul>
             <li>Remove maybe-related predictions</li>
-            <li>Bump org.gnome.Platform and org.gnome.Sdk version to 43</li>
-            <li>Add Utility tag</li>
+            <li>Bump <code>org.gnome.Platform</code> and <code>org.gnome.Sdk</code> version to 43</li>
+            <li>Add <code>Utility</code> tag</li>
             <li>Many other changes!</li>
           </ul>
         </description>
