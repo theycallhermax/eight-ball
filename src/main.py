@@ -13,7 +13,7 @@ class AboutDialog(Gtk.AboutDialog):
         self.props.logo_icon_name = "ml.mdwalters.EightBall"
         self.props.comments = "Make decisions easily"
         self.props.license_type = 7
-        self.props.website = "https://github.com/mdwalters/eight-ball"
+        self.props.website = "https://mdwalters.ml/eight-ball/"
         self.props.website_label = "Website"
         self.props.modal = True
 
