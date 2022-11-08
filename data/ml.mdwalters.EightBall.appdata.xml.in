@@ -22,6 +22,13 @@
         </screenshot>
     </screenshots>
     <releases>
+       <release version="1.5.3" date="2022-11-08">
+        <description>
+          <ul>
+            <li>Update screenshot to a higher quality one</li>
+          </ul>
+        </description>
+      </release>
       <release version="1.5.2" date="2022-09-29">
         <description>
           <ul>
