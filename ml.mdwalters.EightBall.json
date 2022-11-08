@@ -29,12 +29,9 @@
             "buildsystem": "meson",
             "sources": [
                 {
-                    "type": "archive",
-                    "url": "https://github.com/mdwalters/eight-ball/archive/refs/tags/1.5.3.zip",
-                    "sha256": "f8943db0276a758147e14f2aac7b805cbbded0b14181e0cf20f7ce50c167fc79",
-                    "x-checker-data": {
-                        "name": "eight-ball"
-                    }
+                    "type": "git",
+                    "url": "https://github.com/mdwalters/eight-ball.git",
+                    "tag": "1.5.3"
                 }
             ]
         }
